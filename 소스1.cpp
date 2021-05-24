@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 void main()
@@ -9,3 +10,4 @@ void main()
     cin >> b;
     cout << "한달 야근비는" << a * b << "입니다.";
 }
+*/
