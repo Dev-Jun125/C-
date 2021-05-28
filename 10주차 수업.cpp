@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 struct namecard {
@@ -26,3 +27,4 @@ int main(void)
 		cout << "\n" << man[i].name << "\t" << man[i].job << "\t" << man[i].tel << "\t" << man[i].email << endl;
 	}
 }
+*/
