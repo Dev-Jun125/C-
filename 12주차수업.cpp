@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 struct namecard {
@@ -20,3 +21,4 @@ int main(void)
 	structpm()
 
 }
+*/

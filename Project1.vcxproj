@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10주차 수업.cpp" />
+    <ClCompile Include="12주차과제.cpp" />
     <ClCompile Include="12주차수업.cpp" />
     <ClCompile Include="2주차과제.cpp" />
     <ClCompile Include="3주차과제.cpp" />
