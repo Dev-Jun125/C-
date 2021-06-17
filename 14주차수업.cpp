@@ -421,6 +421,7 @@ public:
 
 };
 */
+/*
 #include <iostream>
 using namespace std;
 class MyCar {
@@ -456,4 +457,54 @@ int main()
 	car.oiling(100);
 	for (int i = 0; i < 10; i++) car.go();
 	car.fuel_check();
+}
+*/
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Person{
+    string name;
+    string tel;
+public:
+    Person(){
+        name = "  "; tel = "000-0000-0000";
+}
+    string getName(){
+        return name;
+}
+    string getTel(){
+        return tel;
+}
+    void set(string name, string tel);
+};
+
+void Person::set{string name, string tel){
+    this->name = name; this->tel = tel;
+}
+
+void main()
+{
+    Person person[3];
+    string na,tp;
+    int i;
+    cout<<"이름과 전화번호를 입력해 주세요"<<endl;
+    for(i = 0; i<3;i++;){
+        cout<<"사람 "<< i+1<<">>";
+        cin >> na>>tp;
+        person[i].set(na,tp);
+    }
+    cout << "모든 사람의 이름은";
+    for(i = 0; i<3; i++){
+        cout<<person[i].getName()<<"\t";
+    }
+    cout<<"\n";
+    cout<<"전화번호 검색합니다. 이름을 입력하세요>>";
+    cin >> na;
+    for(i = 0; i<3; i++;){
+        if(na==person[i].getName()){
+            cout<<"전화 번호는 "person[i].getTel()<<endl;
+        }
+    }
+
 }

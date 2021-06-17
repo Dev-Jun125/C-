@@ -155,6 +155,7 @@
     <ClCompile Include="6주차 수업.cpp" />
     <ClCompile Include="7주차과제.cpp" />
     <ClCompile Include="7주차수업.cpp" />
+    <ClCompile Include="공부.cpp" />
     <ClCompile Include="과제1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

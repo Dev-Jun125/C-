@@ -1,2 +1,11 @@
 ﻿  14주차수업.cpp
-  Project1.vcxproj -> C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Debug\Project1.exe
+C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Project1\14주차수업.cpp(482,17): error C2761: 'void Person::set(std::string,std::string)': 멤버를 재선언할 수 없습니다.
+C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Project1\14주차수업.cpp(482,18): error C2275: 'std::string': 이 형식을 식으로 잘못 사용했습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 'std::string' 선언을 참조하십시오.
+C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Project1\14주차수업.cpp(482,25): error C2146: 구문 오류: ')'이(가) 'name' 식별자 앞에 없습니다.
+C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Project1\14주차수업.cpp(482,42): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Project1\14주차수업.cpp(482,42): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Project1\14주차수업.cpp(487,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Project1\14주차수업.cpp(492,24): error C2059: 구문 오류: ';'
+C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Project1\14주차수업.cpp(504,25): error C2059: 구문 오류: ';'
+C:\Users\thdnf\OneDrive\바탕 화면\한서대\2021-1\프로그래밍\progrming\programing\Project1\14주차수업.cpp(506,45): error C3688: 잘못된 리터럴 접두사 'person'입니다. 리터럴 연산자 또는 리터럴 연산자 템플릿 '연산자 ""person'을(를) 찾을 수 없습니다.
